@@ -19,13 +19,9 @@
 # You can also create a file modules in this directory, listing the
 # desired modules one-per-line
 
-COREMODULES="bench packages/chr packages/clpqr packages/inclpr packages/jpl"
-COREMODULES+=" packages/xpce packages/odbc packages/protobufs"
-COREMODULES+=" packages/sgml packages/clib packages/http packages/plunit"
-COREMODULES+=" packages/pldoc packages/RDF packages/semweb packages/ssl"
-COREMODULES+=" packages/R packages/zlib packages/tipc packages/table"
-COREMODULES+=" packages/nlp packages/cpp packages/windows packages/PDT"
-COREMODULES+=" packages/utf8proc packages/archive packages/swipl-win"
+COREMODULES="bench packages/chr packages/clpqr packages/inclpr"
+COREMODULES+=" packages/plunit"
+COREMODULES+=" packages/utf8proc"
 
 version="`cat VERSION`"
 server="http://www.swi-prolog.org"
